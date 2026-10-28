@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sitepeel": {
+      "type": "http",
+      "url": "https://sitepeel.dev/mcp"
+    }
+  }
+}

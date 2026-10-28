@@ -1,0 +1,19 @@
+{
+  "name": "sitepeel",
+  "description": "Sitepeel tools for Claude Code: any website's DESIGN.md, clone prompt, AI slop check, files, fonts, colors and tech stack.",
+  "owner": {
+    "name": "Sitepeel",
+    "email": "support@sitepeel.dev",
+    "url": "https://sitepeel.dev"
+  },
+  "plugins": [
+    {
+      "name": "sitepeel",
+      "displayName": "Sitepeel",
+      "source": "./",
+      "description": "Any website's DESIGN.md, clone prompt, AI slop check, files, fonts, colors and tech stack for your coding agent.",
+      "category": "design",
+      "tags": ["design-md", "design-system", "website", "clone", "fonts", "colors", "ai-slop", "mcp"]
+    }
+  ]
+}

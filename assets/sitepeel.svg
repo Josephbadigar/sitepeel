@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none">
+  <title>Sitepeel</title>
+  <defs>
+    <linearGradient id="peel" x1="72" y1="70" x2="97" y2="101" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7B5FF"/>
+      <stop offset="1" stop-color="#9045E8"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="126" height="126" rx="28" fill="#0D0B11" stroke="#A56DE4" stroke-width="2"/>
+  <path d="M36 26H89C95.6 26 101 31.4 101 38V70L72 101H36C29.9 101 25 96.1 25 90V37C25 30.9 29.9 26 36 26Z" fill="#F5F1FA"/>
+  <path d="M72 101V83C72 75.8 77.8 70 85 70H101L72 101Z" fill="url(#peel)"/>
+  <path d="M43 46H82M43 61H66" stroke="#21172D" stroke-width="7" stroke-linecap="round"/>
+</svg>

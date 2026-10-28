@@ -1,0 +1,52 @@
+{
+  "name": "sitepeel",
+  "version": "1.0.0",
+  "description": "Give your coding agent any website's DESIGN.md, a clone prompt, an AI slop check, its files, fonts, colors and tech stack, from Sitepeel's free MCP server.",
+  "author": {
+    "name": "Sitepeel",
+    "email": "support@sitepeel.dev",
+    "url": "https://sitepeel.dev"
+  },
+  "homepage": "https://sitepeel.dev/mcp/",
+  "repository": "https://github.com/Josephbadigar/sitepeel",
+  "license": "MIT",
+  "keywords": [
+    "sitepeel",
+    "design-md",
+    "design-system",
+    "website",
+    "clone",
+    "screenshot",
+    "fonts",
+    "colors",
+    "ai-slop",
+    "assets",
+    "tech-stack",
+    "frontend",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Sitepeel",
+    "shortDescription": "DESIGN.md from any website",
+    "longDescription": "Sitepeel measures public websites with a real browser and hands your agent what it needs to build with them. Ask for a site's DESIGN.md (colors, type, spacing, radii and components in the Google Stitch format) and your agent builds UI that matches it. Get one prompt that rebuilds a page's look and layout, check a landing page for AI slop (a 0 to 100 score, the tells and a fix prompt), list a page's images, SVGs, icons, videos, fonts, Lottie and 3D files with download links, or find its fonts, color palette and tech stack. A library of more than 160 brand DESIGN.md files (Stripe, Linear, Vercel, Apple, Notion and more) answers at once.\n\nThe first time, you sign in to Sitepeel in the browser (free) and it stays connected. No API key. Works with public pages only; for pages behind a login, use the Sitepeel Chrome extension. Every result links to its page on sitepeel.dev. Values are an independent reading of the public page, not the site owner's official design system.",
+    "developerName": "Sitepeel",
+    "category": "Developer Tools",
+    "capabilities": ["Interactive", "Read"],
+    "websiteURL": "https://sitepeel.dev/mcp/",
+    "supportURL": "https://sitepeel.dev/contact/",
+    "privacyPolicyURL": "https://sitepeel.dev/privacy/",
+    "termsOfServiceURL": "https://sitepeel.dev/terms/",
+    "defaultPrompt": [
+      "Get the DESIGN.md of linear.app and restyle my settings page to match it.",
+      "Check my landing page for AI slop and fix the top three tells.",
+      "What fonts and colors does stripe.com use? Give me Tailwind theme values."
+    ],
+    "brandColor": "#9045E8",
+    "brandColorDark": "#C4A5ED",
+    "composerIcon": "./assets/sitepeel.svg",
+    "logo": "./assets/sitepeel.png",
+    "screenshots": ["./assets/sitepeel-tools.png"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "sitepeel",
+  "interface": {
+    "displayName": "Sitepeel"
+  },
+  "plugins": [
+    {
+      "name": "sitepeel",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

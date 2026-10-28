@@ -1,0 +1,34 @@
+{
+  "name": "sitepeel",
+  "displayName": "Sitepeel",
+  "version": "1.0.0",
+  "description": "Give your coding agent any website's DESIGN.md, a clone prompt, an AI slop check, its files, fonts, colors and tech stack, from Sitepeel's free MCP server.",
+  "author": {
+    "name": "Sitepeel",
+    "email": "support@sitepeel.dev",
+    "url": "https://sitepeel.dev"
+  },
+  "homepage": "https://sitepeel.dev/mcp/",
+  "repository": "https://github.com/Josephbadigar/sitepeel",
+  "license": "MIT",
+  "keywords": [
+    "sitepeel",
+    "design-md",
+    "design-system",
+    "website",
+    "clone",
+    "screenshot",
+    "fonts",
+    "colors",
+    "ai-slop",
+    "assets",
+    "tech-stack",
+    "frontend",
+    "mcp"
+  ],
+  "icon": "./assets/sitepeel.png",
+  "documentationUrl": "https://sitepeel.dev/mcp/",
+  "supportUrl": "https://sitepeel.dev/contact/",
+  "privacyPolicyUrl": "https://sitepeel.dev/privacy/",
+  "termsOfServiceUrl": "https://sitepeel.dev/terms/"
+}
